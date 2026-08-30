@@ -2,21 +2,6 @@
 
 A single Streamlit app that collects student projects from the Shamva Innovators summer program. Visitors open one site, then browse each student’s work from the home gallery or the sidebar.
 
-## Run the app
-
-Python 3.13 or newer is recommended. A local `.venv` may already exist in this folder.
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Then open [http://localhost:8501](http://localhost:8501).
-
-Delma Mandeya’s “Ask Me Anything” box uses OpenAI if you set `OPENAI_API_KEY` in a `.env` file. Without a key, that page still loads and the question box falls back to a static message.
-
 ## How to use it
 
 - Home (`/`) is a gallery of every student project.
